@@ -6,46 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <a href="index.html" aria-label="Логотип сайта барбершрп"><img src="./images/Logo.png" alt="logo" width="69"
                 height="56" /></a>
-        <nav>
-            <ul>
-                <li><a href="">О нас</a></li>
-                <li><a href="">Услуги и цены</a></li>
-                <li><a href="">Мастера</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="navigation">
+            <ul class="list">
+                <li><a class="link main-nav" href="">О нас</a></li>
+                <li><a class="link main-nav" href="">Услуги и цены</a></li>
+                <li><a class="link main-nav" href="">Мастера</a></li>
+                <li><a class="link main-nav" href="">Контакты</a></li>
             </ul>
-            <ul>
-                <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-                <li><a href="#">онлайн-запись</a></li>
+            <ul class="list">
+                <li><a class="link tel" href="tel:+380441111111">+38 044 111 11 11</a></li>
+                <li><a class="link online-right" href="#">онлайн-запись</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!-- Hero -->
         <section>
-            <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Youtube</a></li>
+            <ul class="list">
+                <li><a class="link link-inst" href="">Instagram</a></li>
+                <li><a class="link link-youtube" href="">Youtube</a></li>
             </ul>
-            <div>
-                <p>A hair salon for men in Kyiv</p>
-                <h1>BarberShop</h1>
-                <p>
+            <div class="bg-nav">
+                <p class="upper-titile-light">A hair salon for men in Kyiv</p>
+                <h1 class="hero-title">BarberShop</h1>
+                <p class="sub-title">
                     We are experts in trendy men's haircuts. We work quickly, carefully, and tastefully.
                 </p>
             </div>
-            <ul>
-                <li><button type="button">Назад</button></li>
-                <li><button type="button">Вперед</button></li>
+            <ul class="list">
+                <li><button class="btn-back" type="button">Назад</button></li>
+                <li><button class="btn-forward" type="button">Вперед</button></li>
             </ul>
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/бреембороду.jpg" alt="Бреют бороду" width="270" height="445" />
                 </li>
@@ -63,15 +69,15 @@
                     которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать
                     каждого, кто к нам приходит!
                 </p>
-                <a href="">онлайн-запись</a>
+                <a class="link" href="">онлайн-запись</a>
             </div>
         </section>
         <section>
-            <p>Проведи время в компании лучших мастеров</p>
+            <p class="upper-titile-light">Проведи время в компании лучших мастеров</p>
             <h2>Услуги и цены</h2>
             <ul>
                 <li>
-                    <ul>
+                    <ul class="list">
                         <li>Мужская стрижка от 300 грн.</li>
                         <li>Стрижка бороды от 200 грн.</li>
                         <li>Стрижка усов от 200 грн.</li>
@@ -79,7 +85,7 @@
                     </ul>
                 </li>
                 <li>
-                    <ul>
+                    <ul class="list">
                         <li>Cтрижка у стажера от 50 грн.</li>
                         <li>Стрижка под насадку от 200 грн.</li>
                         <li>Детская стрижка (до 12 лет) от 300 грн.</li>
@@ -87,10 +93,10 @@
                     </ul>
                 </li>
             </ul>
-            <a href="#">онлайн-запись</a>
+            <a class="link" href="#">онлайн-запись</a>
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <p>600 <sup>+</sup></p>
                     <p>Довольных клиентов в день</p>
@@ -116,49 +122,58 @@
         <section>
             <p>для настоящих ценителей атмосферы</p>
             <h2>Наши мастера</h2>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/smit.jpg" alt="Smit" height="370" width="346">
                     <h3 lang="en">John Smith</h3>
                     <p lang="en">Extreme Barber</p>
-                    <ul>
-                        <li><a href=""><img src="./images/instagram.svg" alt="logo-instagram" height="20"
+                    <ul class="list">
+                        <li><a class="link" href=""><img src="./images/instagram.svg" alt="logo-instagram" height="20"
                                     width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
                     </ul>
                 </li>
                 <li><img src="./images/doe.jpg" alt="Smit" height="370" width="346">
                     <h3 lang="en">Michele Doe</h3>
                     <p lang="en">Extreme Barber</p>
-                    <ul>
-                        <li><a href=""><img src="./images/instagram-black.svg" alt="logo-instagram" height="20"
+                    <ul class="list">
+                        <li><a class="link" href=""><img src="./images/instagram-black.svg" alt="logo-instagram"
+                                    height="20" width="20"></a>
+                        </li>
+                        <li><a class="link" href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20"
                                     width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20" width="20"></a>
-                        </li>
-                        <li><a href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
                     </ul>
                 </li>
                 <li><img src="./images/black.jpg" alt="Smit" height="370" width="346">
                     <h3 lang="en">Alan Black</h3>
                     <p lang="en">Extreme Barber</p>
-                    <ul>
-                        <li><a href=""><img src="./images/instagram-black.svg" alt="logo-instagram" height="20"
+                    <ul class="list">
+                        <li><a class="link" href=""><img src="./images/instagram-black.svg" alt="logo-instagram"
+                                    height="20" width="20"></a>
+                        </li>
+                        <li><a class="link" href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20"
                                     width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/twitter.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
-                        <li><a href=""><img src="./images/facebook.svg" alt="logo-instagram" height="20" width="20"></a>
-                        </li>
-                        <li><a href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20" width="20"></a>
+                        <li><a class="link" href=""><img src="./images/linkedin.svg" alt="logo-instagram" height="20"
+                                    width="20"></a>
                         </li>
                     </ul>
                 </li>
@@ -167,31 +182,40 @@
         <section>
             <h2 hidden>Галерея работ</h2>
             <p>На латинском языке “барба” означает “борода”</p>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/Rectangle25.jpg" alt="стригут" width="270" height="360"></li>
                 <li><img src="./images/Rectangle26.jpg" alt="бреют" width="270" height="360"></li>
                 <li><img src="./images/Rectangle27.jpg" alt="парят" width="270" height="360"></li>
                 <li><img src="./images/Rectangle28.jpg" alt="филируют" width="270" height="360"></li>
             </ul>
         </section>
+        <section>
+            <h2>Контакты</h2>
+            <address>
+                <ul class="list">
+                    <li><img src="./images/map-pin.svg" alt="значек карты" width="24" height="24"><a class="link"
+                            href="https://goo.gl/maps/EvabXWZvtgHbTBwT8">ул.
+                            Васильковая, 7А<br>
+                            Киев, 08132</a></li>
+                    <li><img src="./images/Shape.svg" alt="значек телефона" width="24" height="24"><a class="link"
+                            href="tel:380441111111">+38 044 111 11 11</a></li>
+                    <li><img src="./images/mail.svg" alt="значек почты" width="24" height="24"><a class="link"
+                            href="mailto:barbershop@email.com">barbershop@email.com</a></li>
+                </ul>
+            </address>
+            <h3>время работы</h3>
+            <p>Ежедневно с 9:00 до 22:00</p>
+        </section>
     </main>
-    <section>
-        <h2>Контакты</h2>
-        <address>
-            <ul>
-                <li><img src="./images/map-pin.svg" alt="значек карты" width="24" height="24"><a
-                        href="https://goo.gl/maps/EvabXWZvtgHbTBwT8">ул.
-                        Васильковая, 7А<br>
-                        Киев, 08132</a></li>
-                <li><img src="./images/Shape.svg" alt="значек телефона" width="24" height="24"><a
-                        href="tel:380441111111">+38 044 111 11 11</a></li>
-                <li><img src="./images/mail.svg" alt="значек почты" width="24" height="24"><a
-                        href="mailto:barbershop@email.com">barbershop@email.com</a></li>
-            </ul>
-        </address>
-        <h3>время работы</h3>
-        <p>Ежедневно с 9:00 до 22:00</p>
-    </section>
+    <footer>
+        <p> &#169; Copyright 2020</p>
+        <ul class="list">
+            <li><a class="link" href="">Instagram</a></li>
+            <li><a class="link" href="">Youtube</a></li>
+        </ul>
+
+    </footer>
 </body>
+
 
 </html>
