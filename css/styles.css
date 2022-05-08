@@ -1,6 +1,6 @@
 :root {
-  --main-font: 'Open Sans', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font-open-sans: 'Open Sans', sans-serif;
+  --secondary-font-raleway: 'Raleway', sans-serif;
   --main-text-color: #9da4bd;
   --secondary-text-color: #555555;
   --white-text-color: #ffffff;
@@ -19,7 +19,42 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  display: block;
+  max-width: 100%, 
+  height: auto;
+}
 .link {
   text-decoration: none;
   color: currentColor;
@@ -115,4 +150,98 @@ body {
   text-align: right;
   letter-spacing: 0.1em;
   color: var(--white-text-color);
+}
+
+.upper-title {
+  font-family: var(--main-font-open-sans);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: var(--secondary-font-raleway);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.under-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.text-description {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.link-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--title-color);
+  background-color: transparent;
+  border: 1px solid var(--orange-color);
+  border-radius: 25px;
+}
+.price-section {
+  background-color: dimgray;
+}
+.upper-titile-light {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--upper-title-color);
+}
+.light-title {
+  color: var(--white-text-color);
+}
+
+.price-item {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.white-btn-text {
+  color: var(--white-text-color);
+  text-decoration: none;
+}
+.text {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+.sup-orange {
+  color: var(--orange-color);
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+}
+.text-benefits {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.darck {
+  color: var(--title-color);
 }
